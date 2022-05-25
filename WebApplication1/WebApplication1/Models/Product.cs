@@ -12,7 +12,8 @@ namespace WebApplication1.Models
 
         public int Rating { get; set; }
         public int CategoryId { get; set; }
-        public List<Product> ProdutImages { get; set; }
+        public Category Category { get; set; }
+        public List<ProdutcImage> ProdutcImages { get; set; }
 
     }
 }
